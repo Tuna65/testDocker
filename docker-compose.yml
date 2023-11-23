@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  routerv6-reduxtoolkt-tailwin-vite-antd:
+    container_name: routerv6-reduxtoolkt-tailwin-vite-antd:main
+    build: .
+    image: docker/welcome-to-docker:latest
+    ports:
+      - '8088:80'
+    restart: always
