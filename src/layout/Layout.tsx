@@ -1,9 +1,11 @@
 import React from "react";
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 interface Props {}
 
 const Layout = (props: Props) => {
+  const {} = props;
+  React.useEffect(() => {}, []);
   return (
     <div>
       <Outlet />
